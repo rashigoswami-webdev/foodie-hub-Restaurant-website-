@@ -1,0 +1,240 @@
+<html>
+<head>
+	<title>Foodie hub Restaurant Website</title>
+	<link rel="stylesheet" href="hub.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	
+	<div class="container">
+	
+	<!--Offer Banner-->
+	<div class="offer">
+		<p><i class="fa-solid fa-gift"></i>&nbsp; Offer: Get 20% OFF On Your First Order!</p>
+	</div>
+	
+	<!--right side-->
+		<div class="icons">
+			<a href="#" onclick="searchFood()" id="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></a>
+			<a href="#">INR</a>
+			<a href="#" onclick="showCart()"><i class="fa-solid fa-cart-shopping"></i>&nbsp;<span id="cartCount">0</span></a>
+			<a href="login.html" id="user"><i class="fa-solid fa-user"></i></a>
+		</div>
+		
+		<header class="header">
+		<!--left side-->
+			<div class="shop">
+				<i class="fa-solid fa-truck" onclick="showDelivery()"></i>
+			</div>
+		
+			<div class="logo">
+				<a href="index.html">
+				<img src="images/Logo1.png" >
+				</a>
+			</div>
+			
+			<div class="message">
+				<a href="contactus.html">
+					<i class="fa-solid fa-envelope"></i>
+				</a>
+			</div>
+		
+	</header>
+	
+				
+	<div class="navbar">
+		<ul>
+		
+			<li><a href="index.html" id="home"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+			<li><a href="about.html" id="about"><i class="fa-solid fa-circle-info"></i>&nbsp;About Us</a></li>
+			<li><a href="menu.html" id="menu"><i class="fa-solid fa-utensils"></i>&nbsp;Menu</a></li>
+			<li><a href="Contactus.html" id="contact"><i class="fa-solid fa-phone"></i>&nbsp;Contact Us</a></li>
+			<li><a href="login.html" id="login"><i class="fa-solid fa-user"></i>&nbsp;Login</a></li>
+			<li><a href="register.html" id="register"><i class="fa-solid fa-circle-arrow-right"></i>&nbsp;Register</a></li>
+			
+		</ul>
+		
+	</div>
+	<!--section1-->
+	<section>
+	<div class="hero-text">
+		<h1><u>Welcome to Foodie Hub</u></h1>
+		<p>Fresh Food * Fast Delivery * Best Taste</p>
+	</div>
+	
+	<div class="hero">
+		<img src="images/hero.jpg" onclick="window.location.href='menu.html'">
+	</div>
+	</section>
+	
+	<!--section2-->
+	<section class="special">
+	
+		<h2><u>Today's Special</u></h2>
+		
+		<P id="pizza"><i class="fa-solid fa-pizza-slice"></i> &nbsp;Pizza - 20% Off</P>
+		
+		<P id="burger"><i class="fa-solid fa-burger"></i>&nbsp;Burger Combo - Rs. 299</P>
+		
+	</section>
+	
+	<!--section3-->
+	<section class="top-bar">
+	
+	<div class="item">
+		<i class="fa-solid fa-percent"></i>
+		<p>Get more discount</p>
+		<h4>ONLINE SHOPPING</h4>
+	</div>
+	
+	<div class="item">
+		<i class="fa-solid fa-truck"></i>
+		<p>Less 5 days delivery</p>
+		<h4>FAST DELIVERY</h4>
+	</div>
+	
+	<div class="item">
+		<i class="fa-solid fa-award"></i>
+		<p>Fresh Ingredients</p>
+		<h4>QUALITY FOOD</h4>
+	</div>
+	
+	<div class="item">
+		<i class="fa-solid fa-user"></i>
+		<p>24/7 Support</p>
+		<h4>CUSTOMER CARE</h4>
+	</div>
+	</section>
+	<!--section4-->
+	<section class="food">
+	
+		<div class="food-items">
+				<img src="images/f1.jpg" onclick="window.location.href='menu.html #appetizers'";>
+		</div>
+		
+		<div class="food-items">
+				<img src="images/f2.jpg" onclick="window.location.href='menu.html #maincourse'";>
+		</div>
+		
+		<div class="food-items">
+				<img src="images/f3.jpg" onclick="window.location.href='menu.html #dessert'";>
+		</div>
+	</section>
+	<!--section5-->
+	<section class="latest" >
+		<h2>Featured Dishes</h2>
+		
+			<div class="b1">
+			<img src="images/b1.jpg" onclick="window.location.href='menu.html'">
+			<h3>TFH NYONYA CRISPY SPICY PRAWN ROL...</h3>
+			<p>RM22.00</p>
+			</div>
+			
+			<div class="b1">
+			<img src="images/b2.jpg" onclick="window.location.href='menu.html'">
+			<h3>TFH CRISPY CHICKEN FLOSS ROLL(250G)</h3>
+			<p>RM22.00</p>
+			</div>
+			
+			<div class="b1">
+			<img src="images/b3.jpg" onclick="window.location.href='menu.html'">
+			<h3>LIMITEDTIME OFFER:BUY 3 GET 1 FREE..</h3>
+			<p>RM59.90</p>
+			</div>
+			
+			<div class="b1">
+			<img src="images/b4.jpg" onclick="window.location.href='menu.html'">
+			<h3>Healthy Sneacks | BUY 3 FREE 1 Chicken...</h3>
+			<p>RM22.00</p>
+			</div>
+			
+	</section>
+	<!--section6-->
+	<section class="updates">
+	
+		<h2>Facebook Updates</h2>
+	
+		<div class="u1">
+			<img src="images/u1.jpg" onclick="window.location.href='menu.html'">
+			<p><i class="fa-solid fa-user-pen"></i> GOH <i class="fa-solid fa-calendar-day"></i> May 2024</P>
+			<h3>The Foodie Hub Instroduces The<br> Ultimate Feast of Raya Gift Set,Perferct....</h3>
+		</div>
+		   
+		<div class="u1">
+			<img src="images/u2.jpg" onclick="window.location.href='about.html'">
+			<p><i class="fa-solid fa-user-pen"></i> GOH <i class="fa-solid fa-calendar-day"></i> May 2024</P>
+			<h3>Double the Love:Celebrating Moms &<br> Dads This Father's Day and Mother's....</h3>
+		</div>
+		
+		<div class="u1">
+			<img src="images/u3.jpg" onclick="window.location.href='Contactus.html'">
+			<p><i class="fa-solid fa-user-pen"></i> GOH <i class="fa-solid fa-calendar-day"></i> May 2024</P>
+			<h3>Tasty & Delicious Chicken Floss....</h3>
+		</div>
+		
+	</div>
+		
+	</section>
+	<!--section7-->
+	<section>
+		<div class="slider">
+			<img id="slide" onclick="window.location.href='menu.html'"src="images/z1.jpg">
+			
+		</div>
+		
+		<div class="subscribe">
+			<h3>Subscribe For Updates</h3>
+			
+			<input type="email" placeholder="Enter Email" id="subEmail">
+			
+			<button onclick="subscribeUser()">Subscribe</button>
+		</div>
+		
+	<!--footer-->
+	<footer>
+		<div class="footer-container">
+		
+		<div class="footer-box">
+			<h3>Information</h3>
+			<p><a href="about.html">About Us</a></p>
+			<p>FAQ</p>
+			<p>Terms & Conditions</p>
+			<p>Return & Refund Policy</p>
+			<p>Privacy Policy</p>
+			<p><a href="Contactus.html">Contact Us</a></p>
+		</div>
+		
+		<div class="footer-box">
+			<h3>Extras</h3>
+			<p>Special Promotions</p>
+			<p>Bestseller</p>
+			<p>Featured Products</p>
+		</div>
+		
+		<div class="footer-box">
+			<h3>My Account</h3>
+			<p>My Account</p>
+			<p>Order History</p>
+			<p>Receipt Upload</p>
+			<p>Wish List</p>
+		</div>
+		
+		</div>
+		
+		<div class="copyright">
+			Copyright © 2026 The Foodie Hub Sdn Bhd .All rights reserved.
+		</div>
+		
+	</footer>
+</div>
+<script src="hub.js"></script>
+</body>
+</html>
+
+
+
+
+
+Address = <i class="fa-solid fa-map-pin"></i>#EA4335
+opening Hours = <i class="fa-solid fa-clock"></i> #123908
