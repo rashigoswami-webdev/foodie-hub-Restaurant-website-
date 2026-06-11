@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title>Register Form</title>
+	<link rel="stylesheet" href="hub.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+
+		<header class="header">
+		
+			<div class="logo">
+				<a href="index.html">
+				<img src="images/Logo1.png" >
+				</a>
+			</div>
+			
+	</header>
+	
+							
+	<div class="navbar">
+		<ul>
+		
+			<li><a href="index.html" id="home"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+			<li><a href="about.html" id="about"><i class="fa-solid fa-circle-info"></i>&nbsp;About Us</a></li>
+			<li><a href="menu.html" id="menu"><i class="fa-solid fa-utensils"></i>&nbsp;Menu</a></li>
+			<li><a href="Contactus.html" id="contact"><i class="fa-solid fa-phone"></i>&nbsp;Contact Us</a></li>
+			<li><a href="login.html" id="login"><i class="fa-solid fa-user"></i>&nbsp;Login</a></li>
+			<li><a href="register.html" id="register"><i class="fa-solid fa-circle-arrow-right"></i>&nbsp;Register</a></li>
+			
+		</ul>
+	</div>
+	
+	<!--Register form-->
+	<div class="register-container">
+	
+		<div class="register-form">
+			<form>
+				<h1 id="login"><i class="fa-solid fa-user"></i>&nbsp;<u>Create Your Account</u></h1>
+				<p>Already have an account?&nbsp;<a href="login.html">Log in</a></p>
+				
+				<div class="two">
+					<label>First Name</label>
+					<input type="text" id="firstName" placeholder="Enter First Name"><br>
+				
+					<label>Last Name</label>
+					<input type="text" id="lastName" placeholder="Enter Last Name">
+				</div>
+				
+				<label><i class="fa-solid fa-envelope"></i>&nbsp;Email Address</label>
+				<input type="email" id="register-email" placeholder="Enter Email Address">
+				
+				<label><i class="fa-solid fa-mobile-screen"></i>&nbsp;Contact Number</label>
+				<input type="tel" id="register-mobile" maxlength="10" placeholder="Enter Contact Number">
+				
+				<label><i class="fa-solid fa-lock"></i>&nbsp;Password at least 4 characters</label>
+				<input type="password" id="register-password">
+				
+				<button type="button" onclick="return registerUser()" >Create Account</button>
+				<p>By signing up,you agree to our<b>&nbsp;Privacy Policy</b></p>
+			</form>
+		</div>
+	</div>
+	<!--footer-->
+	<footer>
+		<div class="footer-container">
+		
+		<div class="footer-box">
+			<h3>Information</h3>
+			<p><a href="about.html">About Us</a></p>
+			<p>FAQ</p>
+			<p>Terms & Conditions</p>
+			<p>Return & Refund Policy</p>
+			<p>Privacy Policy</p>
+			<p><a href="Contactus.html">Contact Us</a></p>
+		</div>
+		
+		<div class="footer-box">
+			<h3>Extras</h3>
+			<p>Special Promotions</p>
+			<p>Bestseller</p>
+			<p>Featured Products</p>
+		</div>
+		
+		<div class="footer-box">
+			<h3>My Account</h3>
+			<p>My Account</p>
+			<p>Order History</p>
+			<p>Receipt Upload</p>
+			<p>Wish List</p>
+		</div>
+		
+		</div>
+		
+		<div class="copyright">
+			Copyright © 2026 The Foodie Hub Sdn Bhd .All rights reserved.
+		</div>
+		
+	</footer>
+</div>
+<script src="hub.js"></script>
+</body>
+</html>
