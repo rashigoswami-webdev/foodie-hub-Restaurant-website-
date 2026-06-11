@@ -1,0 +1,221 @@
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" href="hub.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<div class="menu-container">
+
+	<!--header-->
+	<div class="menu-header">
+	
+		<h1><u>Menu</u></h1>
+		
+		<div class="back-home">
+		<button onclick="window.location.href='index.html'">Back To Home</button>
+		</div>
+		
+	</div>
+	
+	<!--content-->
+	
+	<div class="menu-content">
+	
+		<!--section1-->
+		
+		<div class="categiries" id="appetizers">
+				<h2>Appetizers</h2>
+			</div>
+		
+		<div class="menu-box">
+			
+			<div class="khana">
+				<img src="images/spring-rolls.jpg">
+				<h3 class="heart">Spring Rolls <i class="fa-solid fa-heart"></i></h3>
+				<p>Crispy rolls filled with fresh vegetables.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 150</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(150)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="addToCart()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/garlic-bread.jpg">
+				<h3 class="heart">Garlic Bread <i class="fa-solid fa-heart"></i></h3>
+				<p>Toasted bread with rich garlic flavor.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 120</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(120)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/tomato-bruschetta.jpg">
+				<h3 class="heart">Tomato Bruschetta <i class="fa-solid fa-heart"></i></h3>
+				<p>Fresh tomatoes served on crispy bread.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 170</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(170)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/french-fries.jpg">
+				<h3 class="heart">French Fries <i class="fa-solid fa-heart"></i></h3>
+				<p>Golden crispy fries loved by everyone.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 130</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(130)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<!--section2-->
+		
+		<div class="categiries" id="maincourse">
+				<h2>Main Courses</h2>
+		</div>
+			
+		<div class="menu-box">
+			
+			<div class="khana">
+				<img src="images/pasta.jpg">
+				<h3 class="heart">Pasta <i class="fa-solid fa-heart"></i></h3>
+				<p>Creamy pasta cooked with tasty sauces.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 250</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(250)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/rajma-chawal.jpg">
+				<h3 class="heart">Rajma Chawal <i class="fa-solid fa-heart"></i></h3>
+				<p>Traditional rajma served with steamed rice.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 220</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(220)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/burger.jpg">
+				<h3 class="heart">Burger <i class="fa-solid fa-heart"></i></h3>
+				<p>Fresh burger with crispy patty.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 180</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(180)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/pizza.jpg">
+				<h3 class="heart">Pizza <i class="fa-solid fa-heart"></i></h3>
+				<p>Loaded with cheese and fresh toppings.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 300</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(300)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+		</div>
+	
+	
+		<!--section3-->
+		
+		<div class="categiries" id="dessert">
+				<h2>Dessert</h2>
+		</div>
+			
+		<div class="menu-box">
+			
+			<div class="khana">
+				<img src="images/chocolate-cake.jpg">
+				<h3 class="heart">Chocolate Cake <i class="fa-solid fa-heart"></i></h3>
+				<p>Rich chocolate cake for sweet Cravings.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 200</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(200)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/cheese-cake.jpg">
+				<h3 class="heart">Cheese Cake <i class="fa-solid fa-heart"></i></h3>
+				<p>Soft and creamy cheesecake delight.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 220</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(220)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			<div class="khana">
+				<img src="images/fruit-salad.jpg">
+				<h3 class="heart">Fruit Salad <i class="fa-solid fa-heart"></i></h3>
+				<p>Healthy mix of fresh seasonal fruits.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 180</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(180)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+			
+			
+			<div class="khana">
+				<img src="images/cake.jpg">
+				<h3 class="heart">Cake <i class="fa-solid fa-heart"></i></h3>
+				<p>Freshly baked cake with delightful taste.</p>
+				<p class="rupees"><i class="fa-solid fa-indian-rupee-sign"></i> 170</p>
+				
+				<div class="btn-box">
+				<button class="add-btn" onclick="addToCart(170)"><i class="fa-solid fa-cart-shopping"></i>&nbsp;Add To Cart</button>
+				<button class="order-btn" onclick="orderFood()"><i class="fa-solid fa-bag-shopping"></i>&nbsp;Order Now</button>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="bill-section">
+			<h2><i class="fa-solid fa-clipboard-list"></i>&nbsp;Total Bill: Rs.&nbsp;<span id="total">0</span></h2>
+		
+		</div>
+	</div>
+</div>
+<script src="hub.js"></script>
+</body>
+</html>
