@@ -41,9 +41,6 @@ body{
 .icons a i{
 	font-size:20px;
 }
-#magnifying-glass{
-	color:\01F50D;
-}
 #user{
 	color:#0000FF;
 }
@@ -298,12 +295,12 @@ body{
 /* Newsletter subscribe*/
 .subscribe{
 	width:450px;
-	height:auto;
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	flex-direction:column;
-	margin:10px;
+	text-align:center;
+	margin:20px auto;
 }
 .subscribe h3{
 	font-weight:bold;
@@ -316,6 +313,7 @@ body{
 	width:90%;
 	padding:8px;
 	text-align:center;
+	border-radius:5px;
 }
 .subscribe button{
 	color:#FF6B35;
@@ -422,25 +420,6 @@ footer{
 #blue-color{
 	color:blue;
 	font-weight:bold;
-}
-.right{
-	padding:20px;
-	margin:20px;
-	font-size:16px;
-}
-.right h3{
-	padding:10px;
-}
-.right p{
-	padding:10px;
-	margin:10px;
-	
-}
-.left{
-	width:60%;
-	height:100%;
-	display:flex;
-	background-color:skyblue;
 }
 /* menu page*/
 
@@ -775,7 +754,7 @@ footer{
 	font-size:15px;
 }
 #login-password i{
-	color:U+1F512;
+	color:black;
 	font-size:15px;
 }
 .login-form input{
@@ -867,7 +846,7 @@ footer{
 	font-size:15px;
 }
 #register-password{
-	color:U+1F512;
+	color:black;
 	font-size:15px;
 }
 
